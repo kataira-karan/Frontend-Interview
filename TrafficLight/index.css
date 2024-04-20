@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
+}
+
+
+header{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-block: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+#myForm{
+
+        display: flex;
+        align-items: center;
+}
+
+.inputContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline-end: 1rem;
+    align-self: center;
+    height: 100%;
+}
+
+button{
+    padding-inline : 1rem;
+    height: 100%;
+    margin-right: 1rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+
+input{
+    width: 3rem;
+    border-radius: 1rem;
+    border: none;
+    margin-left: 1rem;
+    padding : 0.5rem;
+    text-align: center;
+}
+
+.light{
+    height : 100px;
+    width: 100px;
+    margin : 1rem;
+    border :1px solid gray;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#seconds{
+    font-size: 1.5rem;
+    margin-block: 1rem;
+}
+
+.traficSignals{
+    display: flex;
+}
